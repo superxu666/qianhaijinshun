@@ -1,0 +1,73 @@
+
+#wrap dl
+{
+    padding: 80px 0;
+}
+#wrap .dl1,
+#wrap .dl3
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+#wrap .dl1 dt,
+#wrap .dl3 dt
+{
+    float: left;
+
+    padding: 34px 0 36px;
+}
+#wrap .dl1 dd,
+#wrap .dl3 dd
+{
+    float: left;
+
+    width: 690px;
+    padding-top: 72px;
+    padding-left: 64px;
+}
+#wrap .dl1 dd .title,
+#wrap .dl2 dd .title,
+#wrap .dl3 dd .title
+{
+    font-size: 18px;
+    line-height: 34px;
+
+    height: 34px;
+
+    color: #333;
+}
+#wrap .dl1 dd .text1,
+#wrap .dl1 dd .text2,
+#wrap .dl2 dd .text1,
+#wrap .dl2 dd .text2,
+#wrap .dl3 dd .text1,
+#wrap .dl3 dd .text2
+{
+    font-size: 12px;
+    line-height: 30px;
+
+    color: #666;
+}
+#wrap .div2
+{
+    width: 100%;
+    padding: 80px 0;
+
+    background: #f6f6f6;
+}
+#wrap .dl2
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+#wrap .dl2 dt
+{
+    float: left;
+}
+#wrap .dl2 dd
+{
+    float: left;
+
+    width: 630px;
+    margin-right: 78px;
+}

@@ -1,0 +1,78 @@
+
+
+#wrap .productlist li
+{
+    float: left;
+
+    width: 346px;
+    margin-bottom: 30px;
+}
+
+#wrap .productlist li a
+{
+    display: block;
+}
+#wrap .productlist li p
+{
+    font-size: 14px;
+    line-height: 48px;
+
+    height: 48px;
+
+    text-align: center;
+
+    color: #666;
+    background: #f0f0f0;
+}
+
+#wrap .productlist li .active
+{
+    -webkit-transition: background .3s ease-in;
+            transition: background .3s ease-in;
+
+    color: #fff;
+    background: #00a2eb;
+}
+#wrap > .cont > .pagenum ul
+{
+    position: relative;
+    left: 50%;
+
+    display: inline-block;
+
+    margin-left: -92px;
+    padding-bottom: 30px;
+
+    text-align: center;
+}
+#wrap > .cont > .pagenum li
+{
+    line-height: 30px;
+
+    float: left;
+
+    width: 32px;
+    height: 30px;
+    margin: 0 6px;
+
+    -webkit-transition: background .3s ease-in;
+            transition: background .3s ease-in;
+    text-align: center;
+
+    border: 1px solid #dfdfdf;
+}
+#wrap > .cont > .pagenum li a
+{
+    display: block;
+
+    color: #888;
+}
+#wrap > .cont > .pagenum li a:hover,
+#wrap > .cont > .pagenum .active
+{
+    -webkit-transition: background .3s ease-in;
+            transition: background .3s ease-in;
+
+    color: #fff;
+    background: #00a2eb;
+}

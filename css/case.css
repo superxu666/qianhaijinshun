@@ -1,0 +1,27 @@
+
+
+#wrap .cont
+{
+    padding: 28px 48px 0;
+}
+#wrap .cont li
+{
+    float: left;
+
+    width: 432px;
+    margin-bottom: 10px;
+}
+#wrap .cont li div
+{
+    padding: 20px 0;
+}
+#wrap .cont li h3
+{
+    color: #333;
+}
+#wrap .cont li p
+{
+    line-height: 24px;
+
+    color: #666;
+}

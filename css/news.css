@@ -1,0 +1,84 @@
+
+
+#wrap .newslist li
+{
+    float: left;
+
+    margin-bottom: 30px;
+}
+#wrap .newslist a
+{
+    display: block;
+
+    width: 340px;
+}
+#wrap .newslist a div
+{
+    padding: 5px 20px;
+
+    -webkit-transition: background .3s ease-in;
+            transition: background .3s ease-in;
+
+    background: #f0f0f0;
+}
+
+#wrap .newslist a div h3
+{
+    font-size: 16px;
+
+    color: #444;
+}
+#wrap .newslist a div p
+{
+    line-height: 28px;
+
+    color: #888;
+}
+
+#wrap > .cont > .pagenum ul
+{
+    position: relative;
+    left: 50%;
+
+    display: inline-block;
+
+    margin-left: -92px;
+    padding-bottom: 30px;
+
+    text-align: center;
+}
+#wrap > .cont > .pagenum li
+{
+    float: left;
+
+    margin: 0 6px;
+}
+
+
+#wrap > .cont > .pagenum li a
+{
+    line-height: 30px;
+
+    display: block;
+
+    width: 32px;
+    height: 30px;
+
+    -webkit-transition: background .3s ease-in;
+            transition: background .3s ease-in;
+    text-align: center;
+
+    color: #888;
+    border: 1px solid #dfdfdf;
+}
+
+
+#wrap > .cont > .pagenum li a:hover,
+#wrap > .cont > .pagenum .active
+{
+    -webkit-transition: background .3s ease-in;
+            transition: background .3s ease-in;
+
+    color: #fff;
+    background: #00a2eb;
+}
